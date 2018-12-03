@@ -12,7 +12,9 @@ import { AdminComponent } from './admin/admin.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent },
+  { path: 'admin', component: AdminComponent },
+  { path: 'login', component: LoginComponent }
 ];
 
 @NgModule({
