@@ -11,7 +11,7 @@ interface myData {
 })
 export class AuthService {
 
-  configUrl = 'http://localhost:1235/auth.php';
+  configUrl = 'http://192.168.43.236:8080/api/login-response-data/login';
 
   private loggedInStatus = false
 
